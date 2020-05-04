@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+distripy/Binomialdistribution.py
+distripy/Gaussiandistribution.py
+distripy/Generaldistribution.py
+distripy/__init__.py
+distripy.egg-info/PKG-INFO
+distripy.egg-info/SOURCES.txt
+distripy.egg-info/dependency_links.txt
+distripy.egg-info/top_level.txt
