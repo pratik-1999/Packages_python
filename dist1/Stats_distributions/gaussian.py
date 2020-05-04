@@ -134,10 +134,7 @@ class Gaussian(Distribution):
             list: x values for the pdf plot
             list: y values for the pdf plot
             
-        """
-        
-        
-        
+        """        
         mu = self.mean
         sigma = self.stdev
 
@@ -186,8 +183,8 @@ class Gaussian(Distribution):
         result = Gaussian()
         
        
-        result.mean = self.mean + other.mean # change this line to calculate the mean of the sum of two Gaussian distributions
-        result.stdev = math.sqrt(math.pow(self.stdev, 2) + math.pow(other.stdev, 2)) # change this line to calculate the standard deviation of the sum of two Gaussian distributions
+        result.mean = self.mean + other.mean 
+        result.stdev = math.sqrt(math.pow(self.stdev, 2) + math.pow(other.stdev, 2)) 
         
         return result
 
