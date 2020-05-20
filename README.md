@@ -6,4 +6,4 @@
 ---
 - **distripy**: A statistical module for calculations related to popular ditributions like Gaussian, Binomial, and more in progress.
 Allows reading from local data to generate distribution plots, probability distrbution plots, etc.
-    - *installation*: pip install --index-url https://test.pypi.org/simple/ distributions
+    - **installation**: ***pip install --index-url https://test.pypi.org/simple/ distributions
